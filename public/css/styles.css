@@ -1,0 +1,196 @@
+body{
+  /*background: #eeeeee;*/
+    background-image: url("../images/fondo.jpg");
+}
+nav{
+    margin-bottom: 0;
+}
+.arriba{
+    margin-top: 20px;
+}
+.img-alcaldia{
+    width: 150px;
+}
+.navbar-default {
+    font-family: 'Lato', sans-serif;
+    background-color: #fafafa;
+}
+.navbar-default .navbar-nav>li>a{
+  display: inline-block;
+  font-size: 11px;
+  color: #666;
+  text-transform: uppercase;
+  padding: 27px 23px;
+  letter-spacing: 1.3px;
+}
+
+.navbar-default .navbar-brand {
+
+    padding: 25px 23px;
+    color: black;
+    font-weight: bold;
+    font-size: 23px !important;
+}
+.panel-default .panel-heading{
+    background: #666;
+    text-align: center;
+    color: white;
+}
+.panel-default .panel-body{
+    background: #fafafa;
+}
+.login-box,
+.register-box {
+    width: 360px;
+    margin: 7% auto;
+}
+.login-logo,
+.register-logo {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+.login-logo a,
+.register-logo a {
+    color: #ffd203;
+}
+.login-box-body, .register-box-body {
+    background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}
+.sep{
+    width: 1px;
+    height: 25px;
+    float: left;
+    margin: 22px 0;
+    line-height: 30px;
+    border-right: 1px solid #DADADA;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: #fff;
+    border-top: 2px solid #b8513a;
+
+}
+.btn-ahora
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    border-radius: 30px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-transition: background .2s ease-in;
+    color: #fff;
+    background-color: #a91f32;
+    padding: 5px 31px;
+    transition: background .2s ease-in;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.letra-fina{
+    font-family: 'Lato', sans-serif;
+}
+.btn-ahora:hover
+{
+    color: #eee;
+    text-decoration: none;
+}
+.dropdown-menu>li>a {
+      padding: 15px 10px 15px 35px;
+      color: #333;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+}
+#left-panel {
+    padding-top: 0 !important;
+}
+.img-alcaldia2{
+    padding-top: 150px;
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+#panel-alcaldia{
+    margin-top: 5%;
+}
+.textoHeader{
+    font-size: 16px;
+}
+footer{
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #555;
+    color: #eee;
+    text-align: center;
+}
+.fufu
+{
+        /* position: absolute; */
+    /* top: 0; */
+    /* top: 0; */
+    width: 100%;
+    position: absolute;
+    color: white;
+    bottom: 0;
+    text-align: center;
+    /* font-size: 30px; */
+    /* top: 0; */
+}
+.hombre{
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+.ppp{
+    line-height: 60px;
+    font-size: 17px;
+    float: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    margin-right: 12px;
+    border-bottom: 2px solid #e3e3e3;
+}
+.camisa{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 25%;
+}
+.img-es{
+    display: grid;
+}
+.div-img{
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+.aso{
+    border-right: 2px solid #E3E3E3;
+    position: relative;
+    /* max-width: 100%; */
+    height: 550px;
+}
+.text-tela{
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    color: #000;
+    margin-top: 5px;
+    letter-spacing: .6px;
+}
+[v-cloak] {
+  display: none;
+}
+@media only screen and (max-width : 768px) {
+    .camisa{
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin-top: 30%;
+    }
+}
